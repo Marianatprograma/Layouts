@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Styles/layout1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Styles/layout1.css" />
+
     <title>Layouts</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-        <h1> Let's practice</h1>
+      <nav>
+        <div class="logo">
+          <img src="assets/menu.svg" alt="" onclick="showMenu()"/>
+        </div>
+       
+      </nav>
     </header>
-    <main> 
-        <h2> Distributions</h2>
+    <div id="modal" onclick="showMenu()"></div>
+    <aside>
+      <div class="options">
+          <a href="http://"> Home </a>
+          <a href="http://"> About </a>
+          <a href="http://"> Contact </a>
+        </div>
+    </aside>
+    <main>
+      <h2>Distributions</h2>
     </main>
-    <footer>
-
-        Hecho por Mariana Taborda | 2022
-
-    </footer>
-    
-</body>
+    <footer>Hecho por Mariana Taborda | 2022</footer>
+    <script src="/Scripts/script.js"></script>
+  </body>
 </html>
